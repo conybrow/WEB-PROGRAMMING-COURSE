@@ -1,0 +1,353 @@
+body {
+    background-color: #09232c;
+    display: flex;
+    width: auto;
+    height: auto;
+    /* border: white; */
+    /* border-style: double; */
+}
+
+.batasan1 {
+    display: flex;
+    /*agar bisa diatur tataletaknya */
+    /* border: rgb(93, 197, 119);  */
+    /* border-style: double; */
+    width: 5%;
+    height: 100%;
+    justify-content: center;
+    /*mengatur agar kontennya ditengah*/
+    align-items: center;
+    padding: 0% 0% 0% 1.5%;
+    /* color: white; */
+}
+
+.batasan1 .fitur1 {
+    /* margin: auto 0px auto 30px; */
+    background-color: rgb(1, 4, 6);
+    /* color: white; */
+    border-radius: 30px;
+    /*biar melengkung*/
+    /* border: white; */
+    border-style: double;
+    display: flex;
+    /*biar bisa di atur jadi wajib*/
+    flex-direction: column;
+    justify-content: center;
+    /*mengatur agar kontennya ditengah*/
+    align-items: center;
+    /* width: 100%; */
+    /* height: 70%; */
+}
+
+.batasan1 .fitur1 img {
+    width: 60%;
+    height: auto;
+    /* border: white; */
+    /* border-style: double; */
+    margin: 30% 10% 0% 10%;
+    /*format : atas, kanan, bawah, kiri (AKBR)*/
+    /* padding: 5px 7px 10px 6px; */
+}
+
+.batasan1 .fitur1 p {
+    color: whitesmoke;
+    /* border: rgb(255, 255, 255); */
+    /* border-style: double; */
+    margin-top: 0%;
+    font-size: 80%;
+}
+
+.batasan1 .fitur1 .lphr {
+    width: 50%;
+}
+
+.batasan1 .fitur1 button {
+    border: 2px solid rgba(0, 0, 0, 0);
+    background: 0%;
+    border-radius: 60px;
+    weight: 5%;
+    height: auto;
+    margin: 0% 10% 0% 10%;
+}
+
+.batasan1 .fitur1 .jrkats {
+    margin-top: 20%;
+}
+
+.batasan1 .fitur1 .jrkbwh {
+    margin-bottom: 20%;
+}
+
+.batasan1 .fitur1 button:hover {
+    background: #09232c;
+    border: #09232c;
+    transition: 0.8s ease;
+}
+
+.batasan2 {
+    /* border: yellow; */
+    /* border-style: double; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    /* center; mengatur agar kontennya ditengah */
+    align-items: center;
+    /* flex-direction: row; */
+}
+
+.konten {
+    /* border: rgb(107, 229, 213);
+    border-style: double; */
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 90%;
+    /* justify-content: center; mengatur agar kontennya ditengah */
+    /* align-items: center; */
+    background-color: white;
+    box-shadow: 10px 10px 8px 0px black;
+}
+
+.menu {
+    border: rgb(0, 0, 0);
+    border-style: double;
+    width: 49%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: rgb(174, 1, 1);
+    border-style: double;
+    align-items: center;
+}
+
+.menu .menu1,
+.menu .menu2 {
+    display: flex;
+    flex-direction: row;
+    border: rgb(30, 0, 104);
+    border-style: double;
+    flex-direction: column;
+}
+
+.menu1 {
+    /* align-items: center; */
+    width: 99%;
+    height: 9%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu p {
+    margin: auto auto auto auto;
+}
+
+.menu2 {
+    width: 99%;
+    height: 100%;
+    margin: 2%;
+    border: rgb(30, 0, 104);
+    border-style: double;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.menu2 #row {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.menu2 #imgrow img {
+    width: 22%;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#row {
+    border: rgb(30, 0, 104);
+    border-style: double;
+}
+
+#textrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.struk {
+    border: rgb(0, 0, 0);
+    border-style: double;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: auto;
+}
+
+form {
+    border: blue;
+    border-style: double;
+    width: 100%;
+    height: 98%;
+}
+
+#inStruk {
+    display: flex;
+    border: rgb(255, 48, 48);
+    border-style: double;
+    width: 99%;
+    height: 99%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inStruk>div {
+    border: rgb(0, 0, 0);
+    border-style: double;
+}
+
+.struk1 {
+    width: 99%;
+    height: 7%;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.inInStruk {
+    width: 99%;
+    height: 99%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.isi {
+    /* border: rgb(0, 0, 0); */
+    /* border-style: double; */
+}
+
+.isi>div {
+    /* border: rgb(145, 37, 37); */
+    /* border-style: double; */
+}
+
+#ket1>#x {
+    /* border: rgb(0, 0, 0); */
+    /* border-style: double; */
+}
+
+#field {
+    display: flex;
+    margin-left: 5px;
+}
+
+#field>label {
+    /* border: black; */
+    /* border-style: double; */
+    width: 44%;
+    margin-top: 0;
+    margin-right: 4px;
+}
+
+#field>label>p {
+    margin: 0;
+}
+
+#field>input {
+    width: 40%;
+}
+
+#tata {
+    display: flex;
+    flex-direction: row;
+}
+
+.k {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    /* border: #09232c; */
+    /* border-style: double; */
+}
+
+.k>div {
+    /* border: #09232c; */
+    /* border-style: double; */
+    width: 99%;
+}
+
+.k>label {
+    width: 80%;
+    /* height: 1%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: #09232c; */
+    /* border-style: double; */
+}
+
+.k>label>p {
+    /* border: black; */
+    /* border-style: double; */
+    margin: 0;
+}
+
+.k>div>#tata>label {
+    width: 40%;
+    padding-left: 2%;
+    /* border: #09232c; */
+    /* border-style: double; */
+    margin-left: 7px;
+}
+
+.k>div>#tata>label>p {
+    margin: 0;
+}
+
+.k>div>#tata {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 5px;
+    /* border: #09232c; */
+    /* border-style: double; */
+    font-size: 10pt;
+}
+
+#field2 {
+    width: 600x;
+    margin: 0;
+}
+
+.field2>label>p {
+    margin: 0;
+    width: 5%;
+    /* border: red; */
+    /* border-style: double; */
+}
+
+.field2>label {
+    /* border: black; */
+    /* border-style: double; */
+    margin: 0;
+    width: 20%;
+}
+
+@media only screen and (max-width: 960px) {
+    /* Tambahkan gaya CSS yang ingin diubah di sini */
+    .menu2 {
+        font-size: 5px;
+    }
+    /* Misalnya, mengubah font-size body menjadi 14px saat lebar layar <= 768px */
+}
+
+
+/* benarkan css form */

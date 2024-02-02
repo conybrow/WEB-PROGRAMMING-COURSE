@@ -1,0 +1,23 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.pane {
+    flex: 1;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.resizer {
+    cursor: ew-resize;
+    background: #ddd;
+    width: 10px;
+    height: 100%;
+}

@@ -1,0 +1,202 @@
+body {
+    background-color: #09232c;
+    display: flex;
+    width: auto;
+    height: auto;
+    /* border: white; */
+    /* border-style: double; */
+}
+
+.batasan1 {
+    display: flex;
+    /*agar bisa diatur tataletaknya */
+    /* border: rgb(93, 197, 119);  */
+    /* border-style: double; */
+    width: 5%;
+    height: 100%;
+    justify-content: center;
+    /*mengatur agar kontennya ditengah*/
+    align-items: center;
+    padding: 0% 0% 0% 1.5%;
+    /* color: white; */
+}
+
+.batasan1 .fitur1 {
+    /* margin: auto 0px auto 30px; */
+    background-color: rgb(1, 4, 6);
+    /* color: white; */
+    border-radius: 30px;
+    /*biar melengkung*/
+    /* border: white; */
+    border-style: double;
+    display: flex;
+    /*biar bisa di atur jadi wajib*/
+    flex-direction: column;
+    justify-content: center;
+    /*mengatur agar kontennya ditengah*/
+    align-items: center;
+    /* width: 100%; */
+    /* height: 70%; */
+}
+
+.batasan1 .fitur1 img {
+    width: 60%;
+    height: auto;
+    /* border: white; */
+    /* border-style: double; */
+    margin: 30% 10% 0% 10%;
+    /*#uangat : atas, kanan, bawah, kiri (AKBR)*/
+    /* padding: 5px 7px 10px 6px; */
+}
+
+.batasan1 .fitur1 p {
+    color: whitesmoke;
+    /* border: rgb(255, 255, 255); */
+    /* border-style: double; */
+    margin-top: 0%;
+    font-size: 80%;
+}
+
+.batasan1 .fitur1 .lphr {
+    width: 50%;
+}
+
+.batasan1 .fitur1 button {
+    border: 2px solid rgba(0, 0, 0, 0);
+    background: 0%;
+    border-radius: 60px;
+    height: auto;
+    margin: 0% 10% 0% 10%;
+}
+
+.batasan1 .fitur1 .jrkats {
+    margin-top: 20%;
+}
+
+.batasan1 .fitur1 .jrkbwh {
+    margin-bottom: 20%;
+}
+
+.batasan1 .fitur1 button:hover {
+    background: #09232c;
+    border: #09232c;
+    transition: 0.8s ease;
+}
+
+.batasan2 {
+    /* border: yellow; */
+    /* border-style: double; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    /* center; mengatur agar kontennya ditengah */
+    align-items: center;
+}
+
+.konten {
+    /* border: rgb(107, 229, 213); */
+    /* border-style: double; */
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 90%;
+    /* justify-content: center; mengatur agar kontennya ditengah */
+    /* align-items: center; */
+    background-color: white;
+    box-shadow: 10px 10px 8px 0px black;
+    align-items: center;
+    justify-content: center;
+}
+
+#uang {
+    display: flex;
+    flex-direction: column;
+    border: black;
+    /* border-style: double; */
+    width: 595px;
+    background-color: antiquewhite;
+    align-items: center;
+}
+
+#uang #field {
+    border-style: double;
+    display: flex;
+    border: rgb(25, 0, 255);
+    padding: 0 0 2% 0;
+}
+
+#inField {
+    /* border: rgb(9, 152, 38); */
+    /* border-style: double; */
+    width: max-content;
+    /* width: 50%; */
+}
+
+#uang #field>label {
+    font-size: 19px;
+}
+
+#L2 {
+    margin-left: 20px;
+}
+
+#uang #field>input {
+    margin-left: 20px;
+}
+
+#inInField {
+    /* border: rgb(133, 10, 10); */
+    display: flex;
+    /* border-style: double; */
+    width: max-content;
+    /* justify-content: space-between; */
+    padding: 0 0 0 0;
+    align-items: center;
+}
+
+#inInField label {
+    /* border: black; */
+    /* border-style: double; */
+    display: flex;
+    width: 121px;
+    height: 19px;
+    font-size: 13px;
+    /* font-weight: bold; */
+    font-family: Arial, sans-serif;
+}
+
+#inInField input {
+    /* display: flex; */
+    /* border: black; */
+    /* border-style: double; */
+    /* margin-left: -20%; */
+    width: 50px;
+    height: 21px;
+    font-size: 14px;
+}
+
+.f2atas {
+    margin-top: 2%;
+}
+
+.pembatas {
+    color: antiquewhite;
+}
+
+.yuser {
+    /* border: black; */
+    /* border-style: double; */
+    width: 69%;
+}
+
+#Usher {
+    /* border: rgb(220, 38, 38); */
+    /* border-style: double; */
+    margin-top: 3%;
+}
+
+.konten>div {
+    /* border: rgb(0, 0, 0, 0, 0); */
+    /* border-style: double; */
+}
